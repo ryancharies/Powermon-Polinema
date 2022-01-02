@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="turbin_array">
+        <item>Tonduk</item>
+        <item>Goa goa</item>
+        <item>Earth</item>
+        <item>Raas</item>
+    </string-array>
+    <string name="app_name">PLTU Polinema</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
