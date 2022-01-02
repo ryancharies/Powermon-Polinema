@@ -1,6 +1,7 @@
 package com.pltu.polinema.component.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.pltu.polinema.R;
 import com.pltu.polinema.component.model.Turbin;
 import com.pltu.polinema.databinding.ItemListTurbinBinding;
+import com.pltu.polinema.menu.main.ui.turbin.DetailTurbinActivity;
 
 import java.util.ArrayList;
 
@@ -50,6 +52,12 @@ public class TurbinAdapter extends RecyclerView.Adapter<TurbinAdapter.Holder> {
         void bind(int pos){
            Turbin turbin = listTurbin.get(pos);
            mView.tvTurbin.setText(turbin.getNama());
+           mView.lyTurbin.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   context.startActivity(new Intent(context, DetailTurbinActivity.class));
+               }
+           });
            switch (turbin.getStatus()){
                case 0:
                    mView.imgTurbin.setImageResource(R.drawable.turbin_red);
