@@ -10,7 +10,7 @@ android {
         viewBinding true
     }
     defaultConfig {
-        applicationId "com.pltu.polinema"
+        applicationId "com.powermon.polinema"
         minSdk 21
         targetSdk 31
         versionCode 1

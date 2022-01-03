@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/drawable/ic_arrow_down.xml" value="0.2712820512820513" />
+        <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/drawable/ic_circle.xml" value="0.2712820512820513" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/drawable/ic_home.xml" value="0.15" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/drawable/ic_left_arrow.xml" value="0.14583333333333334" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/drawable/ic_turbin.xml" value="0.15" />
@@ -13,6 +15,7 @@
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/layout/fragment_dashboard.xml" value="0.13385416666666666" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/layout/fragment_home.xml" value="0.13385416666666666" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/layout/fragment_notifications.xml" value="0.13385416666666666" />
+        <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/layout/item_list_notification.xml" value="0.536" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/layout/item_list_turbin.xml" value="0.4" />
         <entry key="..\:/Kerja-kerja-kerja/Project/Android2/PLTUPolinema/app/src/main/res/menu/bottom_nav_menu.xml" value="0.13385416666666666" />
       </map>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pltu.polinema">
+    package="com.powermon.polinema">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +13,7 @@
         android:theme="@style/Theme.PLTUPolinema"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".menu.main.ui.turbin.DetailTurbinActivity"
+            android:name="com.powermon.polinema.menu.main.ui.turbin.DetailTurbinActivity"
             android:exported="false" />
 
         <meta-data
@@ -21,14 +21,14 @@
             android:value="${MAPS_API_KEY}" />
 
         <activity
-            android:name=".menu.main.MainMenuActivity"
+            android:name="com.powermon.polinema.menu.main.MainMenuActivity"
             android:exported="false"
             android:label="@string/title_activity_main_menu" />
         <activity
-            android:name=".menu.MainActivity"
+            android:name="com.powermon.polinema.menu.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".menu.LoginActivity"
+            android:name="com.powermon.polinema.menu.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
