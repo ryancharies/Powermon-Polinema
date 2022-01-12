@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_account"
-        android:name="com.powermon.polinema.menu.main.ui.notifications.NotificationsFragment"
+        android:name="com.powermon.polinema.menu.main.ui.account.AkunFragment"
         android:label="Akun"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_akun" />
 </navigation>

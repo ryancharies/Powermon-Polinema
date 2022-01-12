@@ -9,11 +9,13 @@
         <item name="colorSecondary">@color/colorBlue</item>
         <item name="colorSecondaryVariant">@color/colorBlue</item>
         <item name="colorOnSecondary">@color/black</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense</item>
 
         <!-- Customize your theme here. -->
     </style>
     <style name="Theme.PLTUPolinema.NoActionBar" parent="Theme.PLTUPolinema">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.FilledBox</item>
     </style>
 </resources>

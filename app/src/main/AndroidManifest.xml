@@ -13,7 +13,13 @@
         android:theme="@style/Theme.PLTUPolinema"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.powermon.polinema.menu.main.ui.turbin.DetailTurbinActivity"
+            android:name=".menu.main.ui.account.general.KelolaAkunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.main.ui.account.general.EditProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.main.ui.turbin.DetailTurbinActivity"
             android:exported="false" />
 
         <meta-data
@@ -21,15 +27,16 @@
             android:value="${MAPS_API_KEY}" />
 
         <activity
-            android:name="com.powermon.polinema.menu.main.MainMenuActivity"
+            android:name=".menu.main.MainMenuActivity"
             android:exported="false"
             android:label="@string/title_activity_main_menu" />
         <activity
-            android:name="com.powermon.polinema.menu.MainActivity"
+            android:name=".menu.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.powermon.polinema.menu.LoginActivity"
-            android:exported="true">
+            android:name=".menu.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PLTUPolinema.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
